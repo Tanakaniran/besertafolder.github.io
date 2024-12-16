@@ -1,0 +1,39 @@
+text 1 penelitian dari proyek ini
+
+1. penyebab peringatan error line bisa disebabkan oleh kesalahan sintaks, kesalahan penginputan nama
+   pada data.js maupun kesalahan modularisasi nama dari data.js, ke berkas jsx lainnya.
+
+2. Penyebab tidak muncul gambar pada proyek ini adalah kesalahan penulisan kode.
+   seperti besar atau kecilnya kode yang ditulis
+   !!! Teliti ketika menuliskan kode. Kesalahan yang saya buat dan dampaknya yaitu 
+   saya tidak teliti menuliskan kode, yang dimana dampaknya gambar tidak muncul kesalahan
+   yang saya lakukan itu ada di bagian ContactList <ContactList  contacts={contacts}/>
+
+3. Agar sebuah berkas reactjs dapat dijalankan kembali ketika anda menutup sebuah codeeditor
+   ketika anda membuka lagi berkasnya dan ingin menjalakan kembali, maka anda harus menginstal
+   kembali dependensinya dengan menggunakan terminal di codeeditor
+   - cd contacts-app atau nama proyek anda
+   - npm install dimana kita akan menginstal semua dependensinya
+   - npm run dev jalankan browser, yang dimana terminal akan memberikan sebuah localhost
+   saran: tidak perlu lagi dimulai dari CMD windows\linux\macOS atau apapun yang anda gunakan
+   atau command prompt node.js
+
+   Catatan: Teknik modularisasi digunakan untuk memisahkan beberapa kode, dan menggabungkan kode
+            tersebut dengan syntax "import-export default" dari berkas satu ke berkas lainnya
+    Peringatan: "Tetap teliti ketika menuliskan kode program"
+
+
+text 2 penelitian dari proyek ini
+
+Ada 2 bagian cara melampirkan/menggunakan css dengan benar ketika menggunakan react
+1. melampirkan berkas css sebagai berkas statis. dimana berkas ini biasanya ketika mengikuti 
+   modul pembelajaran style.css itu disimpan didalam berkas public bersamaan dengan image
+   (bukan didalam image). Lalu dipanggil seperti biasa menggunakan link di bagian index.html!
+2. melampirkan berkas css sebagai modul di berkas JavaScript, ini digunakan agar dapat diimpor
+   oleh berkas JavaScript, anda bisa pindahkan berkas style.css tadi yang dari public, dipotong
+   dan dipaste pada bagian src-gabungkan dengan berkas di dalam src lainnya. Kemudian hapus link pada 
+   index html, dan kemudian jangan lupa untuk tulis di bagian index.jsx nya pada proyek ini
+   ( >   import './style.css';  <  ). maka hasilnya tetap sama. karena pada text2 kita hanya 
+   mempelajari 2 cara melampirkan berkas css.
+
+   Peringatan: "Tetap teliti ketika menuliskan kode program".
